@@ -1,0 +1,87 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "noise-estimator"
+version = "1.0.0"
+description = "Construction and Maintenance Noise Estimator Automation System"
+authors = [
+    {name = "Noise Estimator Team", email = "team@noise-estimator.com"}
+]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.11"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.24.0",
+    "pydantic>=2.4.0",
+    "openpyxl>=3.1.0",
+    "click>=8.1.0",
+    "rich>=13.6.0",
+    "jsonschema>=4.19.0",
+    "numpy>=1.24.0",
+    "scipy>=1.11.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "pytest-asyncio>=0.21.0",
+    "black>=23.9.0",
+    "isort>=5.12.0",
+    "flake8>=6.1.0",
+    "mypy>=1.6.0",
+    "pre-commit>=3.5.0",
+]
+test = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "pytest-asyncio>=0.21.0",
+]
+
+[project.scripts]
+noise-estimator = "noise_estimator.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/noise-estimator/noise-estimator"
+Repository = "https://github.com/noise-estimator/noise-estimator"
+Documentation = "https://noise-estimator.readthedocs.io"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["noise_estimator*"]
+
+[tool.black]
+line-length = 88
+target-version = ['py311']
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py", "*_test.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "--cov=noise_estimator --cov-report=html --cov-report=term-missing"

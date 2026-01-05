@@ -1,0 +1,495 @@
+{
+  "metadata": {
+    "name": "Concawe Propagation Table",
+    "version": "1.0",
+    "description": "Distance-based attenuation values from Concawe model",
+    "source": "EMF-NV-TT-0067 Construction and Maintenance Noise Estimator (Roads).xlsm"
+  },
+  "concawe_attenuation": {
+    "0": {
+      "hard": 83.2,
+      "urban": 83.2,
+      "rural": 83.2
+    },
+    "1": {
+      "hard": 83.1,
+      "urban": 83.1,
+      "rural": 83.0
+    },
+    "2": {
+      "hard": 82.6,
+      "urban": 82.6,
+      "rural": 82.6
+    },
+    "3": {
+      "hard": 81.9,
+      "urban": 81.9,
+      "rural": 81.9
+    },
+    "4": {
+      "hard": 81.1,
+      "urban": 81.1,
+      "rural": 81.1
+    },
+    "5": {
+      "hard": 80.3,
+      "urban": 80.2,
+      "rural": 80.2
+    },
+    "6": {
+      "hard": 79.5,
+      "urban": 79.4,
+      "rural": 79.4
+    },
+    "7": {
+      "hard": 78.7,
+      "urban": 78.6,
+      "rural": 78.5
+    },
+    "8": {
+      "hard": 77.9,
+      "urban": 77.8,
+      "rural": 77.7
+    },
+    "9": {
+      "hard": 77.2,
+      "urban": 77.1,
+      "rural": 77.0
+    },
+    "10": {
+      "hard": 76.5,
+      "urban": 76.4,
+      "rural": 76.3
+    },
+    "11": {
+      "hard": 75.9,
+      "urban": 75.8,
+      "rural": 75.7
+    },
+    "12": {
+      "hard": 75.3,
+      "urban": 75.2,
+      "rural": 75.0
+    },
+    "13": {
+      "hard": 74.8,
+      "urban": 74.6,
+      "rural": 74.5
+    },
+    "14": {
+      "hard": 74.3,
+      "urban": 74.1,
+      "rural": 73.9
+    },
+    "15": {
+      "hard": 73.8,
+      "urban": 73.6,
+      "rural": 73.4
+    },
+    "16": {
+      "hard": 73.3,
+      "urban": 73.1,
+      "rural": 73.0
+    },
+    "17": {
+      "hard": 72.9,
+      "urban": 72.7,
+      "rural": 72.5
+    },
+    "18": {
+      "hard": 72.5,
+      "urban": 72.3,
+      "rural": 72.1
+    },
+    "19": {
+      "hard": 72.2,
+      "urban": 71.9,
+      "rural": 71.7
+    },
+    "20": {
+      "hard": 71.8,
+      "urban": 71.5,
+      "rural": 71.3
+    },
+    "21": {
+      "hard": 71.5,
+      "urban": 71.2,
+      "rural": 71.0
+    },
+    "22": {
+      "hard": 71.2,
+      "urban": 70.8,
+      "rural": 70.6
+    },
+    "23": {
+      "hard": 70.9,
+      "urban": 70.5,
+      "rural": 70.3
+    },
+    "24": {
+      "hard": 70.6,
+      "urban": 69.2,
+      "rural": 67.8
+    },
+    "25": {
+      "hard": 70.3,
+      "urban": 68.9,
+      "rural": 67.6
+    },
+    "26": {
+      "hard": 70.1,
+      "urban": 68.7,
+      "rural": 67.3
+    },
+    "27": {
+      "hard": 69.8,
+      "urban": 68.4,
+      "rural": 67.1
+    },
+    "28": {
+      "hard": 69.6,
+      "urban": 68.2,
+      "rural": 66.9
+    },
+    "29": {
+      "hard": 69.3,
+      "urban": 68.0,
+      "rural": 66.6
+    },
+    "30": {
+      "hard": 69.1,
+      "urban": 67.7,
+      "rural": 66.4
+    },
+    "31": {
+      "hard": 68.9,
+      "urban": 67.5,
+      "rural": 66.2
+    },
+    "32": {
+      "hard": 68.7,
+      "urban": 67.3,
+      "rural": 66.0
+    },
+    "33": {
+      "hard": 68.5,
+      "urban": 67.1,
+      "rural": 65.8
+    },
+    "34": {
+      "hard": 68.3,
+      "urban": 66.9,
+      "rural": 65.6
+    },
+    "35": {
+      "hard": 68.1,
+      "urban": 66.7,
+      "rural": 65.4
+    },
+    "36": {
+      "hard": 67.9,
+      "urban": 66.5,
+      "rural": 65.3
+    },
+    "37": {
+      "hard": 67.7,
+      "urban": 66.4,
+      "rural": 65.1
+    },
+    "38": {
+      "hard": 67.5,
+      "urban": 66.2,
+      "rural": 64.9
+    },
+    "39": {
+      "hard": 67.4,
+      "urban": 66.0,
+      "rural": 64.7
+    },
+    "40": {
+      "hard": 67.2,
+      "urban": 65.8,
+      "rural": 64.6
+    },
+    "41": {
+      "hard": 67.0,
+      "urban": 65.7,
+      "rural": 64.4
+    },
+    "42": {
+      "hard": 66.9,
+      "urban": 65.5,
+      "rural": 64.3
+    },
+    "43": {
+      "hard": 66.7,
+      "urban": 65.3,
+      "rural": 64.1
+    },
+    "44": {
+      "hard": 66.5,
+      "urban": 65.2,
+      "rural": 64.0
+    },
+    "45": {
+      "hard": 66.4,
+      "urban": 65.0,
+      "rural": 63.8
+    },
+    "46": {
+      "hard": 66.2,
+      "urban": 64.9,
+      "rural": 63.7
+    },
+    "47": {
+      "hard": 66.1,
+      "urban": 64.7,
+      "rural": 63.5
+    },
+    "48": {
+      "hard": 65.9,
+      "urban": 64.6,
+      "rural": 63.4
+    },
+    "49": {
+      "hard": 65.8,
+      "urban": 64.4,
+      "rural": 63.2
+    },
+    "50": {
+      "hard": 65.6,
+      "urban": 64.3,
+      "rural": 63.1
+    },
+    "51": {
+      "hard": 65.5,
+      "urban": 64.2,
+      "rural": 63.0
+    },
+    "52": {
+      "hard": 65.3,
+      "urban": 64.0,
+      "rural": 62.8
+    },
+    "53": {
+      "hard": 65.2,
+      "urban": 63.9,
+      "rural": 62.7
+    },
+    "54": {
+      "hard": 65.1,
+      "urban": 63.7,
+      "rural": 62.6
+    },
+    "55": {
+      "hard": 64.9,
+      "urban": 63.6,
+      "rural": 62.4
+    },
+    "56": {
+      "hard": 64.8,
+      "urban": 63.5,
+      "rural": 62.3
+    },
+    "57": {
+      "hard": 64.7,
+      "urban": 63.4,
+      "rural": 62.2
+    },
+    "58": {
+      "hard": 64.5,
+      "urban": 63.2,
+      "rural": 62.1
+    },
+    "59": {
+      "hard": 64.4,
+      "urban": 63.1,
+      "rural": 62.0
+    },
+    "60": {
+      "hard": 64.3,
+      "urban": 63.0,
+      "rural": 61.8
+    },
+    "61": {
+      "hard": 64.2,
+      "urban": 62.9,
+      "rural": 61.7
+    },
+    "62": {
+      "hard": 64.0,
+      "urban": 62.7,
+      "rural": 61.6
+    },
+    "63": {
+      "hard": 63.9,
+      "urban": 62.6,
+      "rural": 61.5
+    },
+    "64": {
+      "hard": 63.8,
+      "urban": 62.5,
+      "rural": 61.4
+    },
+    "65": {
+      "hard": 63.7,
+      "urban": 62.4,
+      "rural": 61.3
+    },
+    "66": {
+      "hard": 63.6,
+      "urban": 62.3,
+      "rural": 61.2
+    },
+    "67": {
+      "hard": 63.4,
+      "urban": 62.1,
+      "rural": 61.1
+    },
+    "68": {
+      "hard": 63.3,
+      "urban": 62.0,
+      "rural": 60.9
+    },
+    "69": {
+      "hard": 63.2,
+      "urban": 61.9,
+      "rural": 60.8
+    },
+    "70": {
+      "hard": 63.1,
+      "urban": 61.8,
+      "rural": 60.7
+    },
+    "71": {
+      "hard": 63.0,
+      "urban": 61.7,
+      "rural": 60.6
+    },
+    "72": {
+      "hard": 62.9,
+      "urban": 61.6,
+      "rural": 60.5
+    },
+    "73": {
+      "hard": 62.8,
+      "urban": 61.5,
+      "rural": 60.4
+    },
+    "74": {
+      "hard": 62.7,
+      "urban": 61.4,
+      "rural": 60.3
+    },
+    "75": {
+      "hard": 62.5,
+      "urban": 61.3,
+      "rural": 60.2
+    },
+    "76": {
+      "hard": 62.4,
+      "urban": 61.2,
+      "rural": 60.1
+    },
+    "77": {
+      "hard": 62.3,
+      "urban": 61.0,
+      "rural": 60.0
+    },
+    "78": {
+      "hard": 62.2,
+      "urban": 60.9,
+      "rural": 59.9
+    },
+    "79": {
+      "hard": 62.1,
+      "urban": 60.8,
+      "rural": 59.8
+    },
+    "80": {
+      "hard": 62.0,
+      "urban": 60.7,
+      "rural": 59.7
+    },
+    "81": {
+      "hard": 61.9,
+      "urban": 60.6,
+      "rural": 59.6
+    },
+    "82": {
+      "hard": 61.8,
+      "urban": 60.5,
+      "rural": 59.6
+    },
+    "83": {
+      "hard": 61.7,
+      "urban": 60.4,
+      "rural": 59.5
+    },
+    "84": {
+      "hard": 61.6,
+      "urban": 60.3,
+      "rural": 59.4
+    },
+    "85": {
+      "hard": 61.5,
+      "urban": 60.2,
+      "rural": 59.3
+    },
+    "86": {
+      "hard": 61.4,
+      "urban": 60.2,
+      "rural": 59.2
+    },
+    "87": {
+      "hard": 61.3,
+      "urban": 60.1,
+      "rural": 59.1
+    },
+    "88": {
+      "hard": 61.2,
+      "urban": 60.0,
+      "rural": 59.0
+    },
+    "89": {
+      "hard": 61.1,
+      "urban": 59.9,
+      "rural": 58.9
+    },
+    "90": {
+      "hard": 61.0,
+      "urban": 59.8,
+      "rural": 58.8
+    },
+    "91": {
+      "hard": 60.9,
+      "urban": 59.7,
+      "rural": 58.7
+    },
+    "92": {
+      "hard": 60.8,
+      "urban": 59.6,
+      "rural": 58.6
+    },
+    "93": {
+      "hard": 60.8,
+      "urban": 59.5,
+      "rural": 58.5
+    },
+    "94": {
+      "hard": 60.7,
+      "urban": 59.4,
+      "rural": 58.4
+    },
+    "95": {
+      "hard": 60.6,
+      "urban": 59.3,
+      "rural": 58.3
+    },
+    "96": {
+      "hard": 60.5,
+      "urban": 59.2,
+      "rural": 58.2
+    }
+  }
+}

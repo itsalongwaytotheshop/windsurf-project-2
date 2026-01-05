@@ -1,0 +1,180 @@
+[
+  {
+    "id": "scenario",
+    "name": "Scenario",
+    "description": "Scenario - Construction activity",
+    "sound_power_levels": {
+      "excavator": 105.0
+    },
+    "propagation_type": "rural"
+  },
+  {
+    "id": "place_of_worship",
+    "name": "Place of worship",
+    "description": "Place of worship - Construction activity",
+    "sound_power_levels": {
+      "paver": 55
+    },
+    "propagation_type": "rural"
+  },
+  {
+    "id": "active_recreation",
+    "name": "Active recreation",
+    "description": "Active recreation - Construction activity",
+    "sound_power_levels": {
+      "paver": 65
+    },
+    "propagation_type": "rural"
+  },
+  {
+    "id": "passive_recreation",
+    "name": "Passive recreation",
+    "description": "Passive recreation - Construction activity",
+    "sound_power_levels": {
+      "paver": 60
+    },
+    "propagation_type": "rural"
+  },
+  {
+    "id": "offices_retail_outlets",
+    "name": "Offices, retail outlets",
+    "description": "Offices, retail outlets - Construction activity",
+    "sound_power_levels": {
+      "paver": 70,
+      "roller": 105
+    },
+    "propagation_type": "rural"
+  },
+  {
+    "id": "road_works",
+    "name": "General Road Works",
+    "description": "General road maintenance and construction activities",
+    "sound_power_levels": {
+      "excavator": 105.0,
+      "truck": 102.0,
+      "roller": 100.0
+    },
+    "propagation_type": "urban"
+  },
+  {
+    "id": "bridge_works",
+    "name": "Bridge Works",
+    "description": "Bridge construction and maintenance activities",
+    "sound_power_levels": {
+      "excavator": 105.0,
+      "breaker": 115.0,
+      "generator": 108.0
+    },
+    "propagation_type": "rural"
+  },
+  {
+    "id": "drilling",
+    "name": "Drilling Operations",
+    "description": "Drilling and core sampling activities",
+    "sound_power_levels": {
+      "drill_rig": 110.0,
+      "compressor": 105.0,
+      "generator": 108.0
+    },
+    "propagation_type": "rural"
+  },
+  {
+    "id": "concrete_works",
+    "name": "Concrete Works",
+    "description": "Concrete pouring and finishing activities",
+    "sound_power_levels": {
+      "concrete_mixer": 100.0,
+      "pump": 95.0,
+      "vibrator": 95.0
+    },
+    "propagation_type": "urban"
+  },
+  {
+    "id": "demolition",
+    "name": "Demolition Works",
+    "description": "Building and structure demolition activities",
+    "sound_power_levels": {
+      "breaker": 115.0,
+      "excavator": 110.0,
+      "truck": 102.0
+    },
+    "propagation_type": "urban"
+  },
+  {
+    "id": "landscaping",
+    "name": "Landscaping Works",
+    "description": "Landscaping and earthmoving activities",
+    "sound_power_levels": {
+      "excavator": 100.0,
+      "mower": 90.0,
+      "blower": 85.0
+    },
+    "propagation_type": "rural"
+  },
+  {
+    "id": "utility_installation",
+    "name": "Utility Installation",
+    "description": "Water, sewer, and gas line installation",
+    "sound_power_levels": {
+      "excavator": 105.0,
+      "compactor": 100.0,
+      "generator": 95.0
+    },
+    "propagation_type": "urban"
+  },
+  {
+    "id": "paving_asphalt",
+    "name": "Asphalt Paving",
+    "description": "Hot mix asphalt laying and compaction",
+    "sound_power_levels": {
+      "paver": 108.0,
+      "roller": 100.0,
+      "truck": 102.0
+    },
+    "propagation_type": "urban"
+  },
+  {
+    "id": "line_marking",
+    "name": "Line Marking",
+    "description": "Road line marking and signage installation",
+    "sound_power_levels": {
+      "vehicle": 85.0,
+      "heater": 90.0,
+      "generator": 95.0
+    },
+    "propagation_type": "urban"
+  },
+  {
+    "id": "tree_removal",
+    "name": "Tree Removal",
+    "description": "Tree felling and vegetation clearance",
+    "sound_power_levels": {
+      "chipper": 100.0,
+      "chainsaw": 110.0,
+      "truck": 102.0
+    },
+    "propagation_type": "rural"
+  },
+  {
+    "id": "signage_installation",
+    "name": "Signage Installation",
+    "description": "Road signs and traffic signal installation",
+    "sound_power_levels": {
+      "vehicle": 85.0,
+      "auger": 95.0,
+      "generator": 90.0
+    },
+    "propagation_type": "urban"
+  },
+  {
+    "id": "stormwater_works",
+    "name": "Stormwater Drainage Works",
+    "description": "Drainage installation and maintenance",
+    "sound_power_levels": {
+      "excavator": 105.0,
+      "pump": 95.0,
+      "compactor": 100.0
+    },
+    "propagation_type": "urban"
+  }
+]

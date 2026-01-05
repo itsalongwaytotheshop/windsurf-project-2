@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "workbook_name": "test_workbook.xlsm",
+    "extraction_timestamp": "2026-01-05 12:22:01.018986",
+    "version": "20240101_000000_abc123de",
+    "workbook_hash": "abc123def456",
+    "total_tables": 4,
+    "sheet_count": 5
+  },
+  "tables": {
+    "noise_categories": [
+      {
+        "id": "R1",
+        "name": "Rural Residential",
+        "description": "Rural residential area",
+        "time_periods": {
+          "day": 45.0,
+          "evening": 40.0,
+          "night": 35.0
+        },
+        "nml_values": {
+          "day": 55.0,
+          "evening": 50.0,
+          "night": 45.0
+        }
+      },
+      {
+        "id": "U2",
+        "name": "Urban Industrial",
+        "description": "Urban industrial area",
+        "time_periods": {
+          "day": 65.0,
+          "evening": 60.0,
+          "night": 55.0
+        },
+        "nml_values": {
+          "day": 75.0,
+          "evening": 70.0,
+          "night": 65.0
+        }
+      }
+    ],
+    "scenarios": [
+      {
+        "id": "excavation",
+        "name": "Excavation Works",
+        "description": "General excavation activities",
+        "propagation_type": "rural",
+        "sound_power_levels": {
+          "excavator": 105.0,
+          "truck": 102.0
+        }
+      },
+      {
+        "id": "paving",
+        "name": "Paving Works",
+        "description": "Road paving activities",
+        "propagation_type": "urban",
+        "sound_power_levels": {
+          "paver": 108.0,
+          "roller": 100.0
+        }
+      }
+    ],
+    "plants": [
+      {
+        "id": "excavator",
+        "name": "Excavator",
+        "description": "Heavy excavator",
+        "sound_power_level": 105.0,
+        "duty_cycle": 0.5,
+        "usage_factor": 0.8
+      },
+      {
+        "id": "truck",
+        "name": "Dump Truck",
+        "description": "Heavy dump truck",
+        "sound_power_level": 102.0,
+        "duty_cycle": 0.3,
+        "usage_factor": 0.7
+      }
+    ],
+    "mitigation_measures": [
+      {
+        "id": "standard_1",
+        "title": "Standard Measure 1",
+        "text": "Standard mitigation measure",
+        "type": "standard",
+        "trigger_conditions": {},
+        "reduction_db": 5.0
+      },
+      {
+        "id": "additional_1",
+        "title": "Acoustic Enclosure",
+        "text": "Provide acoustic enclosure for noisy equipment",
+        "type": "additional",
+        "trigger_conditions": {"impact_band": ["highly_affected"]},
+        "reduction_db": 10.0
+      }
+    ]
+  }
+}

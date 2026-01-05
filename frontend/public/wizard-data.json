@@ -1,0 +1,324 @@
+{
+  "definitions": {
+    "Term": "Definition",
+    "A\u2013frequency\nweighting": "A frequency based adjustment made to a sound level measurement, by means of an electronic filter, in line with international standards. This approximates the frequency response of the human ear and accounts for reduced sensitivity at low frequency.",
+    "Affected Distance": "Distance up to which noise levels are expected to exceed the Noise Management Level as defined by the EPA\u2019s ICNG.",
+    "At-receiver treatments": "Includes building treatments and courtyard walls. Building treatments may include but are not limited to ventilation, glazing, window and door seals, sealing of vents and underfloor areas.",
+    "Background noise level": "The underlying level of noise present in the ambient noise when extraneous noise is removed and excluding noise from the project under consideration. This is described using the LA90 descriptor.",
+    "Decibel (dB)": "A measure of sound level. The decibel is a logarithmic way of describing a ratio. The ratio may be power, sound pressure, voltage, intensity or other parameters. In the case of sound pressure, it is equivalent to 10 times the logarithm (to base 10) of the ratio of a given sound pressure squared to a reference sound pressure squared.",
+    "Decibel (A-weighted; dBA)": "Unit used to measure \u2018A-weighted\u2019 sound pressure levels. A-weighting is a frequency based adjustment made to a sound-level measurement to approximate the response of the human ear.",
+    "Emergency works": "Unforeseen works immediately needed to prevent the loss of life, damage to property or environmental harm (See EPA's Interim Construction Noise Guideline).",
+    "Equitable": "Receivers and communities exposed to road project noise receive consistent outcomes.",
+    "Feasibility": "Relates to engineering considerations (what can be practically built). These engineering considerations may include:",
+    "Frequency": "The number of times that a vibration or periodic function occurs or repeats itself in one second, measured in Hertz (Hz).",
+    "Highly sensitive receiver": "Receiver where standard annoyance and human comfort criteria do not provide sufficient guidance on the impact. Some examples include buildings with sensitive equipment, recording studios and cinemas.",
+    "Maintenance": "Any activity permitted under the Environmental assessment procedure for routine and minor works Activity Checklist EIA-P05-G01-T01. \nWorks with the potential to cause operational noise impacts, such as altering a pavement surface type or moving traffic closer to receivers are excluded from this definition.",
+    "LAmax": "The \u201cMaximum Noise Level\u201d for an event, used in the assessment of potential sleep disturbance during night-time periods. The subscript \u201cA\u201d indicates that the noise levels are filtered to match normal human hearing characteristics (i.e. A-weighted). \u201cFast\u201d time constant is used for this measurement.",
+    "LAeq(15 minute)": "The \u201cEnergy Average Noise Level\u201d during construction activities, evaluated over a measurement period of 15 minutes. This is the main parameter used to assess the construction noise impacts.",
+    "LA90": "The A-weighted noise level that is exceeded for 90% of each sampling period when measured in the absence of construction works under consideration and excluding extraneous noise. This is considered to represent the background noise.",
+    "Line of sight (LoS)": "The straight line between the noise source and the receiver.",
+    "NML": "Noise Management Level as defined by the NSW EPA and in compliance with the ICNG. NMLs may be referred to as noise objectives in this document",
+    "Reasonable": "Selecting reasonable measures from those that are feasible involves judging whether the overall noise benefits provide significant social, economic or environmental benefits. The factors to be considered are:",
+    "Rating background level (RBL)": "The overall single-figure background noise level ( LA90) for each assessment period. Determination of the rating background level is by the method described in the NSW Noise Policy for Industry (EPA, 2017). This approach aims to result in the noise management level being met for at least 90% of the time periods (15 minute each) over which reactions of annoyance can occur. The LAeq(15 minute) construction noise objectives are based on an allowance margin above the LA90 background noise levels.",
+    "Solid barrier": "Solid barriers can be in the form of road cutting, timber lapped and capped fence, shipping container, site office, etc. Please note that vegetation and trees are not considered to be a form of solid barrier and any gaps would compromise the acoustic integrity of the solid barrier.",
+    "Substantial solid barrier": "Substantial solid barriers are barriers greater than 5 metres in height or multiple rows of houses or a sound barrier specifically designed to mitigate construction noise with an insertion loss of more than 10 dB(A)."
+  },
+  "guidance": {
+    "assessment_types": {
+      "distance_based": {
+        "title": "Distance Based Assessment",
+        "description": "Calculate noise levels at a specific distance from the source. This is the most common assessment type for determining if noise levels at nearby properties will exceed criteria.",
+        "when_to_use": "Use when you need to know the noise level at a specific location (e.g., a residential property) at a known distance from the work site.",
+        "steps": [
+          "Select the work scenario or plant",
+          "Enter the distance to the receiver",
+          "Choose the time period",
+          "Review results and mitigation measures"
+        ]
+      },
+      "full_estimator": {
+        "title": "Full Estimator Assessment",
+        "description": "Comprehensive assessment that calculates affected distances and provides detailed analysis including respite periods and notification requirements.",
+        "when_to_use": "Use for detailed project planning, when you need to determine the full extent of noise impact and all compliance requirements.",
+        "steps": [
+          "Select the work scenario or plant",
+          "Specify the work location",
+          "Choose time periods for work",
+          "Review comprehensive results including notifications and compliance"
+        ]
+      }
+    },
+    "calculation_modes": {
+      "scenario": {
+        "title": "Scenario-based Calculation",
+        "description": "Uses predefined work scenarios (e.g., excavation, paving) with typical equipment combinations.",
+        "when_to_use": "Use when your work matches one of the standard scenarios. This provides the most accurate results for common construction activities."
+      },
+      "noisiest_plant": {
+        "title": "Noisiest Plant Calculation",
+        "description": "Identifies and uses the noisiest piece of equipment from your selected scenario.",
+        "when_to_use": "Use when you want a conservative estimate based on the single noisiest piece of equipment."
+      },
+      "individual_plant": {
+        "title": "Individual Plant Selection",
+        "description": "Allows you to select specific pieces of equipment for custom scenarios.",
+        "when_to_use": "Use when your work involves a specific combination of equipment that doesn't match standard scenarios."
+      }
+    },
+    "environment_approaches": {
+      "representative_noise_environment": {
+        "title": "Representative Noise Environment",
+        "description": "Uses predefined background noise levels based on the noise category (R1, U2, etc.).",
+        "when_to_use": "Use for most assessments where you don't have measured background noise levels."
+      },
+      "user_supplied_background_level": {
+        "title": "User Supplied Background Level",
+        "description": "Allows you to enter a measured or known background noise level.",
+        "when_to_use": "Use when you have actual measurements of background noise at the site."
+      }
+    },
+    "time_periods": {
+      "day": {
+        "title": "Daytime (7am - 6pm)",
+        "description": "Standard daytime work hours. Most construction activities occur during this period.",
+        "restrictions": "Monday to Saturday only. No work on Sundays or public holidays (except emergency works).",
+        "typical_background": "45 dB for R1 (Rural Residential), 55 dB for U2 (Urban Industrial)"
+      },
+      "evening": {
+        "title": "Evening (6pm - 10pm)",
+        "description": "Evening work hours with additional restrictions.",
+        "restrictions": "Maximum 3 consecutive days, EPA approval required for noisy work.",
+        "typical_background": "40 dB for R1 (Rural Residential), 50 dB for U2 (Urban Industrial)"
+      },
+      "night": {
+        "title": "Nighttime (10pm - 7am)",
+        "description": "Night work hours with the strictest requirements.",
+        "restrictions": "Emergency works only, maximum 2 consecutive nights, requires EPA Section 115 approval.",
+        "typical_background": "35 dB for R1 (Rural Residential), 45 dB for U2 (Urban Industrial)"
+      }
+    },
+    "propagation_types": {
+      "rural": {
+        "title": "Rural",
+        "description": "Open country environment with minimal obstacles. Noise propagates with minimal attenuation.",
+        "characteristics": "Flat or gently rolling terrain, scattered vegetation, no buildings",
+        "example": "Open farmland, rural road works"
+      },
+      "urban": {
+        "title": "Urban",
+        "description": "Built-up environment with buildings and obstacles that affect noise propagation.",
+        "characteristics": "Buildings, streets, urban infrastructure, reflective surfaces",
+        "example": "City streets, suburban areas"
+      },
+      "hard_ground": {
+        "title": "Hard Ground",
+        "description": "Solid, reflective ground surface that provides less noise attenuation.",
+        "characteristics": "Concrete, asphalt, compacted earth, rock",
+        "example": "Paved areas, concrete pads, hard-standing"
+      },
+      "soft_ground": {
+        "title": "Soft Ground",
+        "description": "Porous ground surface that provides additional noise attenuation.",
+        "characteristics": "Grass, soil, sand, vegetation",
+        "example": "Parks, gardens, unpaved areas"
+      },
+      "mixed": {
+        "title": "Mixed",
+        "description": "Combination of different ground types and environments.",
+        "characteristics": "Variable terrain with both hard and soft surfaces",
+        "example": "Suburban areas with gardens and driveways"
+      }
+    },
+    "noise_categories": {},
+    "scenarios": {
+      "LAeq(15minute) Noise Mangement Level (dB(A))": {
+        "description": "Day",
+        "typical_activities": []
+      },
+      "Undeveloped green fields, rural areas with isolated dwellings": {
+        "description": "Day",
+        "typical_activities": []
+      },
+      "Developed settlements (urban and suburban)": {
+        "description": "Day",
+        "typical_activities": []
+      },
+      "Propagation across a valley / over water": {
+        "description": "Day",
+        "typical_activities": []
+      }
+    },
+    "mitigation_measures": {
+      "standard": [
+        {
+          "title": "Site inductions",
+          "description": "Airborne noise",
+          "reduction": "All employees, contractors and subcontractors are to receive a site specific prestart/toolbox talk. The talk must at least include"
+        },
+        {
+          "title": "Behavioural practices",
+          "description": "Airborne noise",
+          "reduction": "No swearing or unnecessary shouting or loud stereos/radios on site."
+        },
+        {
+          "title": "Verification",
+          "description": "Airborne noise",
+          "reduction": "Attended noise and/or vibration measurements are to be carried out for the works in response to complaints or if required by any approval or licence conditions.   "
+        },
+        {
+          "title": "Attended vibration measurements",
+          "description": "Ground-borne vibration",
+          "reduction": "Where required attended vibration measurements should be undertaken at the commencement of vibration generating activities to confirm that vibration levels are within the acceptable range to prevent cosmetic building damage.  "
+        },
+        {
+          "title": "Update Construction Environmental Management Plans",
+          "description": "Airborne noise.",
+          "reduction": "The CEMP must be updated to account for any changes in noise and vibration management issues and strategies."
+        },
+        {
+          "title": "Building condition surveys",
+          "description": "Vibration",
+          "reduction": "Undertake building dilapidation surveys on all buildings located within the buffer zone prior to commencement of activities with the potential to cause property damage-see \u201cVibration Min. Distance\u201d tab in Maintenance Noise Estimator."
+        },
+        {
+          "title": "Construction hours and scheduling",
+          "description": "Airborne noise",
+          "reduction": "Where feasible and reasonable, construction should be carried out during the standard daytime working hours.  Work generating high noise and/or vibration levels should be scheduled during less sensitive time periods."
+        },
+        {
+          "title": "Construction respite period during normal hours and out-of-hours work",
+          "description": "Ground-borne noise and vibration",
+          "reduction": "Please refer to \"Additional Mitigation Measures\" for more details on the following respite measures:"
+        },
+        {
+          "title": "Equipment selection",
+          "description": "Airborne noise",
+          "reduction": "Use quieter and less vibration emitting construction methods where feasible and reasonable."
+        },
+        {
+          "title": "Use and siting of plant",
+          "description": "Airborne noise",
+          "reduction": "The offset distance between noisy plant and adjacent sensitive receivers is to be maximised.  "
+        },
+        {
+          "title": "Plan worksites and activities to minimise noise and vibration.",
+          "description": "Airborne noise",
+          "reduction": "Locate compounds away from sensitive receivers and discourage access from local roads."
+        },
+        {
+          "title": "Reduced equipment power",
+          "description": "Airborne noise",
+          "reduction": "Use only the necessary size and power"
+        },
+        {
+          "title": "Non-tonal and ambient sensitive reversing alarms",
+          "description": "Airborne noise",
+          "reduction": "Non-tonal reversing beepers (or an equivalent mechanism) must be fitted and used on all construction vehicles and mobile plant regularly used on site for any out of hours work.  "
+        },
+        {
+          "title": "Minimise disturbance arising from delivery of goods to construction sites",
+          "description": "Airborne noise",
+          "reduction": "Loading and unloading of materials/deliveries is to occur as far as possible from sensitive receivers.  "
+        },
+        {
+          "title": "Shield stationary noise sources such as pumps, compressors, fans etc.",
+          "description": "Airborne noise.",
+          "reduction": "Stationary noise sources should be enclosed or shielded where feasible and reasonable whilst ensuring that the occupational health and safety of workers is maintained. Materials suitable for acoustic enclosures or screens include plywood or other solid material on timber framing and acoustic blankets on temporary fencing. Ordinary building materials such as pipes, bricks, and topsoil if sited carefully can be used to provide noise protection without additional cost. Refer to Appendix D of AS 2436:2010 for more information."
+        },
+        {
+          "title": "Shield sensitive receivers from noisy activities.",
+          "description": "Airborne noise",
+          "reduction": "Use structures to shield residential receivers from noise such as site shed placement, earth bunds, fencing, erection of operational stage noise barriers (where practicable) and consideration of site topography when situating plant."
+        }
+      ],
+      "additional": [
+        {
+          "title": "Abbreviation",
+          "description": "Measure",
+          "reduction": "Description"
+        },
+        {
+          "title": "N",
+          "description": "Notification (letterbox drop or equivalent)",
+          "reduction": "Advance warning of works and potential disruptions can assist in reducing the impact on the community. The notification may consist of using variable message sign, letterbox drop (or equivalent), web site / social media or a combination to distribute information detailing work activities, time periods over which these will occur, impacts and mitigation measures. Notification should be a minimum of 5 working days prior to the start of works. The approval conditions for projects may also specify requirements for notification to the community about works that may impact on them."
+        },
+        {
+          "title": "SN",
+          "description": "Specific notifications",
+          "reduction": "Specific notifications are letterbox dropped (or equivalent) to identified stakeholders no later than 5 working  days ahead of construction activities that are likely to exceed the noise objectives. The specific notification provides additional information when relevant and informative to more highly affected receivers than covered in general letterbox drops.\nThis form of communication is used to support periodic notifications, or to advertise unscheduled works.\n"
+        },
+        {
+          "title": "PC",
+          "description": "Phone calls",
+          "reduction": "Phone calls detailing relevant information made to identified/affected stakeholders, who have provided their contact details, within seven calendar days of proposed work. Phone calls provide affected stakeholders with personalised contact and tailored advice, with the opportunity to provide comments on the proposed work and specific needs. Where the resident cannot be telephoned then an alternative form of engagement should be used."
+        },
+        {
+          "title": "IB",
+          "description": "Individual briefings",
+          "reduction": "Individual briefings are used to inform stakeholders about the impacts of high noise activities and mitigation measures that will be implemented. Project representatives would visit identified stakeholders at least 48 hours ahead of potentially disturbing construction activities. Individual briefings provide affected stakeholders with personalised contact and tailored advice, with the opportunity to comment on the project. Where the resident cannot be met with individually then an alternative form of engagement should be used."
+        },
+        {
+          "title": "RO",
+          "description": "Respite offer",
+          "reduction": "Respite Offers should be considered where there are high noise and vibration generating activities near receivers. As a guide work should be carried out in continuous blocks that do not exceed 3 hours each, with a minimum respite period of one hour between each block. The actual duration of each block of work and respite should be flexible to accommodate the usage of and amenity at nearby receivers. The purpose of such an offer is to provide residents with respite from an ongoing impact. This measure is evaluated on a project-by-project basis, and may not be applicable to all projects, or or when duration respite has been agreed (see below)."
+        },
+        {
+          "title": "R1",
+          "description": "Respite Period 1  ",
+          "reduction": "Out of hours construction noise in out of hours period 1 shall be limited to no more than three consecutive evenings per week except where there is a Duration Respite. For night work these periods of work should be separated by not less than one week and no more than 6 evenings per month."
+        },
+        {
+          "title": "R2",
+          "description": "Respite Period 2",
+          "reduction": "Night time construction noise in out of hours period 2 shall be limited to two consecutive nights except for where there is a Duration Respite. For night work these periods of work should be separated by not less than one week and no more than 6 nights per month. Where possible, high noise generating works shall be completed before 11pm."
+        },
+        {
+          "title": "DR",
+          "description": "Duration respite",
+          "reduction": "Respite offers and respite periods 1 and 2 may be counterproductive in reducing the impact on the community for longer duration projects. In this instance and where it can be strongly justified it may be beneficial to increase the work duration, number of evenings or nights worked through Duration Respite so that the project can be completed more quickly.\nTransport staff should engage with the community where noise levels are expected to exceed the NML to demonstrate support for Duration Respite. \n\n"
+        },
+        {
+          "title": "AA",
+          "description": "Alternative accommodation",
+          "reduction": "Alternative accommodation options may be offered (as a last resort) to residents living in close proximity to construction works that are likely to experience highly intrusive noise levels. The specifics of the offer will be identified on a project-by-project basis, however an AA offer is unlikely to be made for maintenance works. Additional aspects for consideration shall include whether the highly intrusive activities occur throughout the night or before midnight."
+        },
+        {
+          "title": "V",
+          "description": "Verification",
+          "reduction": "Verification may be required for building or asset condition where works are likely to cause vibration impact or for noise levels following reasonable complaints. See Appendix F of the Construction Noise and Vibration Guideline (Roads) for more details."
+        }
+      ]
+    },
+    "notifications": {},
+    "work_hours": {
+      "Night time RBL (dB(A))": "35",
+      "Night time NML (dB(A))": "40",
+      "Propagation Type": "Over Water",
+      "Noisiest plant": "Backhoe",
+      "Is there line of sight to receiver?": "Yes",
+      "Shortest distance to the worst affected receiver (m)": "100",
+      "LAeq(15minute) noise level at the worst affected receiver (dB(A)) [stationary source] ": "61.7",
+      "Level above RBL at the worst affected receiver [stationary source]": "26.700000000000003",
+      "Rate of production (m/min) [moving source]": "5",
+      "LAeq(15minute) noise level at the worst affected receiver (dB(A)) [moving source] ": "59.7617541771547",
+      "Level above RBL at the worst affected receiver [moving source]": "24.7617541771547",
+      "Have all standard mitigation measures been implemented where feasible and reasonable?": "No",
+      "5-10 dB(A) over RBL": "N",
+      "10-20 dB(A) over RBL": "N, R2, DR",
+      "20-30 dB(A) over RBL": "N, PC, SN, R2, DR",
+      ">30 dB(A) over RBL": "AA, N, PC, SN, R2, DR"
+    },
+    "compliance": {}
+  },
+  "images": {},
+  "tips": [
+    "Always measure background noise at the most sensitive receiver location",
+    "Consider the worst-case scenario when planning work hours",
+    "Implement mitigation measures before considering out-of-hours work",
+    "Keep records of all notifications and complaints",
+    "Use noise monitoring for high-impact projects",
+    "Consider the cumulative impact of multiple noise sources",
+    "Plan respite periods for extended out-of-hours work"
+  ],
+  "examples": []
+}
